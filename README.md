@@ -18,5 +18,11 @@ $ git clone https://github.com/ayranlouro/MVC-CRUD-Composer.git
 # Acesse a pasta raiz do projeto, (exemplo)
 $ cd /var/www/html/
 
+# Instale os pacotes necessários do projeto.
+$ composer install
+
+# Inicie o servidor Apache:
+$ Centos 7 - systemctl start httpd (exemplo).
+
 # O servidor inciará na porta 80 pelo Apache - acesse <http://localhost:80>
 ```
