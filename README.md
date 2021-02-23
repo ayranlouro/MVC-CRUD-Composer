@@ -4,8 +4,6 @@
    Sistema de produtos - padrão MVC - Ajax - Jquery
 </h1>
 
-## :heart: 2 minutes quick start
-
 ## :computer: Running the server
 
 :bulb: Run the server on the command line just typing the following command:
