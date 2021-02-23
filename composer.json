@@ -1,0 +1,30 @@
+{
+    "name": "ayranlouro/produtosmvc",
+    "description": "Sistema de cadastro de produtos",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ayran Louro",
+            "email": "ayranlouro@hotmail.com"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor/"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/datalayer": "1.1.*",
+        "coffeecode/router": "1.0.*",
+        "ext-pdo": "*",
+        "league/plates": "v4.0.0-alpha",
+        "larapack/dd": "1.*",
+        "illuminate/http": "^8.28"
+    }
+}
