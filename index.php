@@ -14,8 +14,6 @@ $router->namespace('source\Controllers');
 $router->group(null);
 $router->get('/', "Web:home", "web.home");
 
-$router->get('/teste', "Web:teste", "web.teste");
-
 $router->get('/adicionar', "Web:adicionar", "web.adicionar");
 $router->post('/adicionar', "Web:adicionarPost", "web.adicionarPost");
 
